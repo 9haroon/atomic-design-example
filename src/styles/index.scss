@@ -1,0 +1,63 @@
+// :root {
+// 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+// 	line-height: 1.5;
+// 	font-weight: 400;
+
+// 	color-scheme: light dark;
+// 	color: rgba(255, 255, 255, 0.87);
+// 	background-color: #242424;
+
+// 	font-synthesis: none;
+// 	text-rendering: optimizeLegibility;
+// 	-webkit-font-smoothing: antialiased;
+// 	-moz-osx-font-smoothing: grayscale;
+// 	-webkit-text-size-adjust: 100%;
+// 	--el-font-size-extra-large: 2rem;
+// }
+
+// @media (prefers-color-scheme: light) {
+// 	:root {
+// 		color: #213547;
+// 		background-color: #ffffff;
+// 	}
+// 	a:hover {
+// 		color: #747bff;
+// 	}
+// 	button {
+// 		background-color: #f9f9f9;
+// 	}
+// }
+
+// html,
+// body {
+// 	margin: 0;
+// 	padding: 0;
+// }
+
+
+// import dark theme
+// @use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
+@use "./element-plus/index.scss" as *;
+
+:root {
+  --el-font-size-extra-large: 2rem;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+// a {
+//   color: var(--ep-color-primary);
+// }
+
+// code {
+//   border-radius: 2px;
+//   padding: 2px 4px;
+//   background-color: var(--ep-color-primary-light-9);
+//   color: var(--ep-color-primary);
+// }
